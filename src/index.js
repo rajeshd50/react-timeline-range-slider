@@ -125,6 +125,7 @@ class TimeRange extends React.Component {
     return (
       <div className={containerClassName || 'react_time_range__time_range_container' }>
         <Slider
+          vertical
           mode={mode}
           step={step}
           domain={domain}
